@@ -6,7 +6,7 @@
 /// use format_money::format_money;
 /// 
 /// fn main() {
-///     println!("{}",format_money("00,010"));
+///     println!("{}",format_money("00010"));
 /// }
 /// //it prints $ 10.00
 /// ```
