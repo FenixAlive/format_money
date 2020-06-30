@@ -6,6 +6,6 @@ edition = "2018"
 description = "A simple function that takes a string reference &str and returns a String with money format $ #'###,###.##"
 license = "MIT"
 repository = "https://github.com/FenixAlive/format_money"
-keywords = ["money format", "money", "format"]
+keywords = ["money", "format"]
 
 [dependencies]
