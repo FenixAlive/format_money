@@ -29,6 +29,9 @@
 ///    assert_eq!(format_money("0100.00000"), "$ 100.00");
 ///
 ///    assert_eq!(format_money("F1c0.0A000"), "$ 0.00");
+/// 
+///    assert_eq!(format_money("00,0010.0A000"), "$ 0.00");
+///       // last prints $ 0.00 because it has a comma or any other digit but a number o dot which can´t be parse to f64
 /// ```
 
 pub fn format_money(num: &str) -> String {
