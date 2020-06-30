@@ -1,6 +1,6 @@
 [package]
 name = "format_money"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["FenixAlive <luisangelmf@gmail.com>"]
 edition = "2018"
 description = "A simple function that takes a string reference &str and returns a String with money format $ #'###,###.##"
